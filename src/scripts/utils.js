@@ -1,0 +1,2 @@
+export const t = function(e) { return "font-weight:bold;font-size:1em;font-family:arial,helvitica,sans-serif;color:" + e };
+export const _log = function(text,color='DeepSkyBlue') { console.log(`%cs%cn%co%cw %c==> ${text}` ,t("#ADD8E6"),t("#87CEEB"), t("#87CEFA"), t("#00BFFF"), `font-size:11px; font-weight:500; color:${color}; padding:3px 50px 3px 3px; width:100%;`); };
