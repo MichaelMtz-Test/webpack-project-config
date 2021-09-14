@@ -13,7 +13,6 @@ import { _log } from "./scripts/utils";
    btn.innerHTML = "Click me & check console";
    btn.addEventListener('click',()=> {
      _log('Webpack Dev Server buddy...!');
-     zlog('test')
    });
 
    element.appendChild(btn);
